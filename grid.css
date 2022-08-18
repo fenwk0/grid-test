@@ -22,7 +22,7 @@
 .ag-contact { grid-area: right; }
 .ag-alerts { grid-area: ag-alerts; }
 
-.grid-container {
+.ag-main-grid-container {
     display: grid;
     grid-template-areas:
     'ag-title ag-title ag-title ag-title ag-title ag-title ag-title'
@@ -35,8 +35,8 @@
     padding: 10px;
 }
 
-.grid-container > div {
-    font-size: 40px;
+.ag-main-grid-container > div {
+    font-size: 2rem;
     padding: 2rem;
     border-radius: 0.7rem;
     box-shadow: 1.5rem .75rem 1rem -3rem;
